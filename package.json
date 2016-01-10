@@ -1,0 +1,38 @@
+{
+  "name": "plait-skeleton-app",
+  "version": "1.0.0",
+  "description": "A skeleton app to kick-start your Plait application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildlyinaccurate/plait-skeleton-app.git"
+  },
+  "keywords": [
+    "plait",
+    "skeleton",
+    "app"
+  ],
+  "author": "Joseph Wynn <joseph@wildlyinaccurate.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildlyinaccurate/plait-skeleton-app/issues"
+  },
+  "homepage": "https://github.com/wildlyinaccurate/plait-skeleton-app#readme",
+  "dependencies": {
+    "plait": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-jasmine": "^2.2.1",
+    "jsx-transform": "^2.2.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
