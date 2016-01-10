@@ -2,6 +2,8 @@
 
 [![build status](https://img.shields.io/travis/wildlyinaccurate/plait-skeleton-app/master.svg?style=flat-square)](https://travis-ci.org/wildlyinaccurate/plait-skeleton-app)
 
+A skeleton application for the [Plait framework](https://github.com/wildlyinaccurate/plait). It contains everything you need to build Plait components for the browser, including JSX support.
+
 ## Getting Started
 
 You will need [Gulp](http://gulpjs.com/) installed (`npm install -g gulp`) before you can build this project.
