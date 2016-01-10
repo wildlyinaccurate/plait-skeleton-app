@@ -6,11 +6,12 @@
 
 You will need [Gulp](http://gulpjs.com/) installed (`npm install -g gulp`) before you can build this project.
 
-First off, clone the repository
+First off, clone the repository and install all of the dependencies
 
 ```
 git clone https://github.com/wildlyinaccurate/plait-skeleton-app.git
 cd plait-skeleton-app
+npm install
 ```
 
 Then build the application (to `dist/bundle.js`) with
