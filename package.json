@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/wildlyinaccurate/plait-skeleton-app#readme",
   "dependencies": {
-    "plait": "^0.10.0"
+    "plait": "^0.11.0"
   },
   "devDependencies": {
     "babel-plugin-transform-react-jsx": "^6.4.0",
