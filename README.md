@@ -6,8 +6,6 @@ A skeleton application for the [Plait framework](https://github.com/wildlyinaccu
 
 ## Getting Started
 
-You will need [Gulp](http://gulpjs.com/) installed (`npm install -g gulp`) before you can build this project.
-
 First off, clone the repository and install all of the dependencies
 
 ```
@@ -19,7 +17,7 @@ npm install
 Then build the application (to `dist/bundle.js`) with
 
 ```
-gulp build
+npm run build
 ```
 
 And then see it running by opening `index.html` in a web browser.
@@ -27,7 +25,7 @@ And then see it running by opening `index.html` in a web browser.
 You can run the tests with
 
 ```
-gulp test
+npm run test
 ```
 
 ## Project Structure
