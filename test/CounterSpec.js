@@ -4,7 +4,7 @@ import * as Counter from '../src/Counter'
 describe('Counter', () => {
 
   it('should increase the count by 1 on an INCREMENT action', () => {
-    var state = new State({ count: 0 })
+    var state = new State(Counter.init())
     const action = { type: 'INCREMENT' }
 
     state = Counter.update(state, action)
