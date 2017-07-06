@@ -1,12 +1,10 @@
-import h from 'virtual-dom/h'
-
+import { h } from 'plait'
 
 export function init () {
   return {
     count: 0
   }
 }
-
 
 export function update (state, action) {
   switch (action.type) {
@@ -18,13 +16,12 @@ export function update (state, action) {
   }
 }
 
-
 export function view (state, dispatch) {
   return (
-    <div className="counter">
-      <button className="decrement" ev-click={dispatch({ type: 'DECREMENT' })}>-</button>
-      <span className="counter__value">{state.get('count')}</span>
-      <button className="increment" ev-click={dispatch({ type: 'INCREMENT' })}>+</button>
+    <div className='counter'>
+      <button className='decrement' ev-click={dispatch({ type: 'DECREMENT' })}>-</button>
+      <span className='counter__value'>{state.get('count')}</span>
+      <button className='increment' ev-click={dispatch({ type: 'INCREMENT' })}>+</button>
     </div>
   )
 }

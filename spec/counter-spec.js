@@ -1,5 +1,5 @@
 import { State } from 'plait'
-import * as Counter from '../src/Counter'
+import * as Counter from '../src/counter'
 
 describe('Counter', () => {
 
