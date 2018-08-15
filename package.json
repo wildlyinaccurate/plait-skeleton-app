@@ -1,6 +1,6 @@
 {
   "name": "plait-skeleton-app",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A skeleton app to kick-start your Plait application.",
   "main": "index.js",
   "scripts": {
